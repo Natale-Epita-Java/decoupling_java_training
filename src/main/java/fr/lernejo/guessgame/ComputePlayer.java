@@ -2,6 +2,7 @@ package fr.lernejo.guessgame;
 
 
 public class ComputePlayer implements Player {
+
     private long lastGuessMax = 100;
     private long lastGuessMin = 0;
     private long lastGuess = 100;

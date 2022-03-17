@@ -13,7 +13,6 @@ public class Simulation {
     private final Logger logger = LoggerFactory.getLogger("Simulation");
     private final Player player;
     private long numberToGuess;
-
     public Simulation(Player player) {
         this.player = player;
     }
